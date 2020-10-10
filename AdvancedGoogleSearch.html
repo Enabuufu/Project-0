@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced google search</title>
+        <link rel="stylesheet" type="text/css" href="project0.css">
+        <style>
+             body {
+  font-family: Arial;
+}
+        input[type=text], select {
+            width: 60%;
+            padding: 12px 20px;
+            margin: 8px 0;
+        
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+          }
+.rows{
+  width:100%;
+  display:block;
+
+}
+.column{
+    width:100%;
+    display:inline-block;
+    
+}
+.theLabels{
+  
+  width:30%
+  float:left;
+}
+.theInputs{
+  
+
+  width:60%;
+  float: right;
+}
+        </style>
+   
+    </head>
+
+
+    <body>
+        <h1><span style="color:blue">G</span><span style="color: red">o</span><span style="color:yellow">o</span><span style="color:blue">g</span><span style="color:green">l</span><span style="color:red">e</span>
+            <h3>Advanced Search</h3>
+
+            <p>Find pages with in:</p>
+            <form action="https://www.google.com/advanced_search">
+            <div class="column">
+            <label class="theLabels">these words</label> 
+             <input type="text" name="advance" class="theInputs"><br>
+            </div>
+            <div class="column">
+                <label class="theLabels">this exact word or phrase:</label>
+                    <input type="text" name="advance" class="theInputs"><br>
+            </div>
+
+
+            <div class="column">
+              <label class="theLabels">any of these words:</label>
+                  <input type="text" name="advance" class="theInputs"><br>
+          </div>
+          <div class="column">
+            <label class="theLabels">none of these words: </label>
+                <input type="text" name="advance" class="theInputs"><br>
+        </div>
+        <div class="column">
+          <label class="theLabels">numbers ranging from:</label>
+              <input type="text" name="advance" class="theInputs"> 
+      </div>
+      <div class="column">
+        <label class="theLabels">to</label>
+            <input type="text" name="advance" class="theInputs"> 
+    </div>
+
+
+
+            <input type="submit" value="Advanced Search" style="text-align: center; background-color: blue; color: white;" class="adva">
+          </form>
+    </body>
+
+</html>

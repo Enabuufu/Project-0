@@ -1,0 +1,76 @@
+h2 {
+    text-align: center;
+    font-size: 400%;
+
+}
+h6 {
+    color: blue;
+}
+
+h1 {
+    background-color: rgb(228, 228, 235);
+}
+h3 {
+    color: red;
+}
+
+.center {
+    margin: auto;
+    width: 27%;
+    padding: 5px;
+}
+
+.rcorners {
+    border-radius: 25px;
+    padding: 15px;
+    height: 3px;
+    text-align: left;
+    
+    
+}
+
+.adva {
+    margin: 0;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    -ms-transform: translate(-85%, -50%);
+    transform: translate(-85%, -50%);
+    height: 30px;
+}
+.centerdb {
+    border-radius: 25px;
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-65%, -50%);
+    transform: translate(-65%, -50%);
+    height: 30px;
+
+}
+.hyper {
+    float: right;
+    width: 300px;
+    padding: 10pxs;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+/*h2::first-letter {
+    color: blue;
+}*/
